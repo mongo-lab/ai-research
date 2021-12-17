@@ -1,0 +1,8 @@
+digraph "pet-shop" {
+	graph [rankdir=LR]
+	node [shape=plaintext]
+	edge [arrowhead=vee arrowsize=2]
+	parrot
+	dead
+	parrot -> dead
+}
